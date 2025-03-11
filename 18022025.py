@@ -43,3 +43,17 @@ else:
     print("you are not allowed as your age is below 16")
 
 
+# 
+
+price = int(input("enter the product price: "))
+if price >=1000:
+    print("expensive")
+elif price <=1000 and price >=800:
+    print("medium")
+elif price<=8000 and price >=500:
+    print("low")
+else:
+    print("cheap")
+
+
+

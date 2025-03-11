@@ -96,6 +96,22 @@ else:
 '''
 
 
+height =  (float(input("Enter the height: ")))
+weight = (float(input("enter the weight: ")))
+Name = str(input("Enter your name: "))
+BMI = (weight/height**2)
 
+if BMI >=40:
+    print( "Extremly obese")
+elif BMI <=39.9 and BMI>=35:
+    print( "over obese")
+elif BMI <=34.9 and BMI>=30:
+    print("obese")
+elif BMI <=29.9 and BMI>=25:
+    print("over weight")
+elif BMI <=24.9 and BMI>=18.5:
+    print("Normal")
+else:
+    print("Hi {} your height is {}, weight is {} and your BMI {} hence you are under weight".format(Name, height, weight, BMI))
  
 
